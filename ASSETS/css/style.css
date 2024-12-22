@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-color: #562794;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  
+}
+.box{
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(247, 225, 201);
+  width: 800px;
+  height: 500px;
+}
+.titulo{
+  margin-top: 15px;
+}
+.medio{
+  margin-top: 70px;
+  text-align: center;
+}
+#listaTareas{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+}
+.caja .completa {
+  text-decoration: line-through red; 
+  opacity: 0.6; 
+}
+input{
+  width: 350px;
+  height: 30px;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+button{
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+  background-color: #0a38b4;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.fondo{
+  margin-top: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #0a38b4;
+  color: #fff;
+  height: 70px;
+  border-radius: 10px;
+}
